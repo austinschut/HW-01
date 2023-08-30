@@ -1,11 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Welcome to the programers gym where we exersise all our programing needs");
-Console.WriteLine("Press [Enter] five times fast");
+Console.WriteLine("Welcome");
+Console.WriteLine("Please type your name in the space below then press [ENTER].");
 Console.WriteLine();
 DateTime started = DateTime.Now;
 Console.ReadLine();
-Console.ReadLine();
-Console.ReadLine();
-Console.ReadLine();
 DateTime finished = DateTime.Now;
-Console.WriteLine($"You did it in {finished - started}!");
+Console.WriteLine("Hello User");
+Console.WriteLine($"You were able to type your name in {finished - started} seconds!");
